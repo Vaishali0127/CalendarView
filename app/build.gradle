@@ -1,8 +1,8 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    defaultConfig {   
+    defaultConfig {
         applicationId "calendar.holidaycalendar.publicholiday"
         minSdkVersion 21
         targetSdkVersion 27
