@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    card_view:cardBackgroundColor="@color/color_white"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp"
+    card_view:cardUseCompatPadding="true">-->
+
+<RelativeLayout android:layout_width="match_parent"
+    android:id="@+id/card_view"
+    android:layout_height="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_launcher_background"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_toRightOf="@id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="Android Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_alignParentBottom="true"
+        android:background="#c3c3c3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+</RelativeLayout>
+    <!--</android.support.v7.widget.CardView>-->
+
+
+

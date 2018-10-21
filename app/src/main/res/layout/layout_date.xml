@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/top_under"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/top"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/bottom_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="6" />
+
+
+    <TextView
+        android:id="@+id/bottom_tight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="6" />
+
+    <TextView
+        android:id="@+id/main_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_middle"
+        android:layout_centerHorizontal="true"
+        android:text="6"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/date_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_middle"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/main_Date"
+        android:text="left" />
+
+    <TextView
+        android:id="@+id/date_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txt_middle"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/main_Date"
+        android:text="right" />
+
+    <TextView
+        android:id="@+id/txt_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
